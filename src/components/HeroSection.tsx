@@ -6,7 +6,7 @@ const HeroSection = () => {
   const handleDownloadResume = () => {
     // Create a link to download the resume
     // Replace this URL with your actual resume file URL
-    const resumeUrl = "https://drive.google.com/file/d/1yGMXop1MM_BSaHs4z2u405SduEmb3_2M/view?usp=drive_link";
+    const resumeUrl = "/src/Priyanshu_NoteDev.pdf";
     const link = document.createElement("a");
     link.href = resumeUrl;
     link.download = "Priyanshu_NoteDev.pdf";
