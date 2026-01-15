@@ -6,10 +6,10 @@ const HeroSection = () => {
   const handleDownloadResume = () => {
     // Create a link to download the resume
     // Replace this URL with your actual resume file URL
-    const resumeUrl = "/src/Priyanshu_resume_DevOPS.pdf";
+    const resumeUrl = "/src/Priyanshu_NoteDev.pdf";
     const link = document.createElement("a");
     link.href = resumeUrl;
-    link.download = "Priyanshu_DevOps.pdf";
+    link.download = "Priyanshu_NoteDev.pdf";
     link.click();
   };
 
@@ -18,8 +18,24 @@ const HeroSection = () => {
       {/* Spiral binding effect */}
       <div className="absolute left-0 top-0 bottom-0 w-12 spiral-binding opacity-60" />
 
+
+
       {/* Red margin line */}
       <div className="absolute left-16 top-0 bottom-0 w-[3px] bg-[hsl(0_70%_70%)]" />
+
+      <div className="absolute top-[8%] left-[15%] animate-shooting-star">
+        <svg width="80" height="20" viewBox="0 0 80 20" className="opacity-80">
+          <defs>
+            <linearGradient id="starTrail1" x1="0%" y1="50%" x2="100%" y2="50%">
+              <stop offset="0%" stopColor="hsl(var(--highlight))" stopOpacity="0" />
+              <stop offset="70%" stopColor="hsl(var(--highlight))" stopOpacity="0.6" />
+              <stop offset="100%" stopColor="hsl(var(--accent))" stopOpacity="1" />
+            </linearGradient>
+          </defs>
+          <path d="M0 10 L70 10" stroke="url(#starTrail1)" strokeWidth="2" strokeLinecap="round" />
+          <circle cx="70" cy="10" r="4" fill="hsl(var(--accent))" className="animate-pulse" />
+        </svg>
+      </div>
 
       <div className="container mx-auto px-8 md:px-20 py-16 relative">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
@@ -28,10 +44,13 @@ const HeroSection = () => {
             {/* Greeting */}
             <div className="opacity-0 animate-slide-in-left" style={{ animationDelay: '0.1s' }}>
               <span className="font-casual text-2xl md:text-3xl text-ink">Hi, I'm</span>
+
+
               <h1 className="font-handwriting text-6xl md:text-8xl text-ink leading-tight">
                 Priyanshu <span className="inline-block animate-wiggle">👋</span>
               </h1>
             </div>
+
 
             {/* Role Title */}
             <div className="opacity-0 animate-slide-in-left" style={{ animationDelay: '0.2s' }}>
@@ -39,19 +58,27 @@ const HeroSection = () => {
                 <span className="highlight-text font-bold">DevOps Engineer Developer</span>
                 <span className="text-muted-foreground mx-2">|</span>
                 <span>AWS • GCP • Cloud</span>
+
+
               </p>
             </div>
 
+
+
             {/* Value Statement */}
             <p className="font-casual text-lg md:text-xl text-muted-foreground max-w-lg opacity-0 animate-slide-in-left" style={{ animationDelay: '0.3s' }}>
-              I build fast, scalable, and user-friendly web applications that solve real-world problems.
+              I design and automate scalable cloud infrastructure.
+              Ensuring fast, secure, and reliable software delivery.
+
+
             </p>
+
 
             {/* About Summary */}
             <div className="hand-drawn-border bg-paper/50 p-4 max-w-lg opacity-0 animate-slide-in-left" style={{ animationDelay: '0.4s' }}>
               <p className="font-casual text-ink">
-                <span className="text-doodle font-bold">2+ years</span> of experience crafting digital solutions.
-                Passionate about clean code, great UX, and turning ideas into reality.
+                <span className="text-doodle font-bold">1.5+ years</span> of experience building and operating scalable cloud infrastructure.
+                Passionate about automation, reliability, and efficient software delivery.
               </p>
             </div>
 
@@ -74,7 +101,7 @@ const HeroSection = () => {
 
               <div className="flex items-center gap-3">
                 <a
-                  href="https://instagram.com/yourusername"
+                  href="https://www.instagram.com/priyanshuverma94?utm_source=qr&igsh=MWllaGxlM29ibGd6cg%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hand-drawn-border p-3 bg-paper hover:bg-highlight/30 transition-all hover:scale-110 hover:rotate-3"
@@ -83,7 +110,7 @@ const HeroSection = () => {
                   <Instagram size={24} className="text-ink" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://www.linkedin.com/in/priyanshu-verma94/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hand-drawn-border p-3 bg-paper hover:bg-highlight/30 transition-all hover:scale-110 hover:-rotate-3"

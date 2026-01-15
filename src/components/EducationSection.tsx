@@ -4,23 +4,25 @@ const education = [
     {
         degree: "Bachelor of Technology",
         field: "Computer Science & Engineering",
-        institution: "Indian Institute of Technology",
-        year: "2018 - 2022",
-        achievements: ["CGPA: 8.5/10", "Dean's List", "Tech Club Lead"]
+        institution: "Future Group of Institutes",
+        year: "2019 - 2023",
+        achievements: ["CGPA: 7/10"]
     },
     {
         degree: "Higher Secondary",
         field: "Science (PCM)",
-        institution: "Delhi Public School",
-        year: "2016 - 2018",
-        achievements: ["95% Score", "Science Olympiad Winner"]
+        institution: "Swami Dharmanand Saraswati Inter College",
+        year: "2018 - 2019",
+        achievements: [" Percentage: 60%"]
     }
 ];
 
 const certifications = [
-    { name: "AWS Solutions Architect", issuer: "Amazon", year: "2023" },
-    { name: "Meta Frontend Developer", issuer: "Meta", year: "2022" },
-    { name: "Google Cloud Professional", issuer: "Google", year: "2022" },
+    { name: "Google Cloud Digital Leader", issuer: "Udemy, ", year: "2024" },
+    { name: "Computer System Security:", issuer: "I.I.T Kanpur", year: "2022" },
+
+    { name: "Python Training", issuer: "Intenshala", year: "2021" },
+    
 ];
 
 const EducationSection = () => {

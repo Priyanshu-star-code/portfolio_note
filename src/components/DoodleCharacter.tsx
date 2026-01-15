@@ -7,7 +7,7 @@ export const DoodleCharacter = () => {
       }}
     >
       <img
-        src="/src/Confident_young_man_in_sketch_portrait-removebg-preview.png"
+        src="\public\Confident_young_man_in_sketch_portrait-removebg-preview.png"
         alt="Pencil sketch portrait"
         style={{
           width: "100%",

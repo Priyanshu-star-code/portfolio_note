@@ -23,7 +23,7 @@ const Navigation = () => {
           className="relative font-handwriting text-3xl text-ink group"
         >
           Portfolio
-          <span className="absolute left-0 -bottom-1 w-full h-2 bg-yellow-200 opacity-0 group-hover:opacity-100 transition-all duration-300 -z-10 rotate-[-2deg]" />
+          <span className="absolute left-0 -bottom-1 w-full h-2 bg-yellow-200 " />
         </a>
 
         {/* Desktop Menu */}

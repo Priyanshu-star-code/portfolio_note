@@ -3,6 +3,8 @@ import { Instagram, Linkedin, Download } from "lucide-react";
 const Footer = () => {
   return (
     <footer className="py-8 notebook-page relative border-t border-border">
+
+
       {/* Spiral binding */}
       <div className="absolute left-0 top-0 bottom-0 w-12 spiral-binding opacity-60" />
       <div className="absolute left-16 top-0 bottom-0 w-[3px] bg-[hsl(0_70%_70%)]" />
@@ -10,13 +12,13 @@ const Footer = () => {
       <div className="container mx-auto px-8 md:px-20">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="font-casual text-muted-foreground text-center md:text-left">
-            Crafted with ☕ & 💻 © 2024
+            Crafted with ☕ & 💻 © 2025
           </p>
 
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <a
-              href="https://instagram.com/yourusername"
+              href="https://www.instagram.com/priyanshuverma94?utm_source=qr&igsh=MWllaGxlM29ibGd6cg%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 font-casual text-ink hover:text-doodle transition-colors"
@@ -27,7 +29,7 @@ const Footer = () => {
             </a>
             <span className="text-muted-foreground">|</span>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/priyanshu-verma94/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 font-casual text-ink hover:text-doodle transition-colors"
@@ -38,7 +40,7 @@ const Footer = () => {
             </a>
             <span className="text-muted-foreground">|</span>
             <a
-              href="/resume.pdf"
+              href="/src/Priyanshu_NoteDev.pdf"
               download="My_Resume.pdf"
               className="flex items-center gap-2 font-casual text-ink hover:text-doodle transition-colors"
               aria-label="Download Resume"
@@ -67,8 +69,8 @@ const Footer = () => {
         </div>
 
         {/* hii */}
-      
-{/* 
+
+        {/* 
         <svg className=" w-12 h-12 float" viewBox="0 0 40 40">
           <circle cx="20" cy="20" r="4" fill="hsl(25 25% 35%)" />
           <path d="M20 2 L20 10" stroke="hsl(25 25% 35%)" />
@@ -161,6 +163,14 @@ const Footer = () => {
 
 
 
+      </div>
+
+
+      {/* Bouncing Loader Dots */}
+      <div className="absolute top-[68%] left-[65%] flex gap-1">
+        <div className="w-2 h-2 bg-accent rounded-full animate-bounce-1 opacity-70" />
+        <div className="w-2 h-2 bg-highlight rounded-full animate-bounce-2 opacity-70" />
+        <div className="w-2 h-2 bg-doodle rounded-full animate-bounce-3 opacity-70" />
       </div>
     </footer>
   );

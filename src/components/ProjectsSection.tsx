@@ -2,26 +2,26 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack shopping experience with cart, payments, and admin dashboard",
-    tech: ["React", "Node.js", "Stripe", "MongoDB"],
+    title: "DSO-Genie-AI",
+    description: "DSO-Genie-AI is an AI-powered infrastructure automation platform enabling scalable deployments across AWS and GCP",
+    tech: ["GCP", "Github Action", "Terraform", "Docker", "Python"],
     color: "bg-primary/30",
   },
   {
-    title: "Task Management App",
-    description: "Collaborative project tracker with real-time updates and team features",
-    tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
+    title: "Secure Hire web App",
+    description: "Secure Hire is a web application that streamlines the hiring and management of security guards.",
+    tech: ["AWS", "Github Actions", "Docker", "Trello"],
     color: "bg-secondary",
   },
   {
-    title: "AI Content Generator",
-    description: "Smart writing assistant powered by machine learning algorithms",
-    tech: ["Python", "OpenAI", "FastAPI", "React"],
+    title: "DevSecOps Software Website",
+    description: "A corporate website showcasing the company’s DevSecOps services, expertise, and solutions.",
+    tech: ["Linux", "GCP", "Aetifact", "YAML"],
     color: "bg-primary/30",
   },
   {
-    title: "Portfolio Builder",
-    description: "Drag-and-drop portfolio creator with custom themes and animations",
+    title: "Portfolio Web",
+    description: "A personal portfolio website showcasing my skills, projects, and professional experience.",
     tech: ["Vue.js", "Tailwind", "Firebase", "Framer Motion"],
     color: "bg-secondary",
   },
@@ -51,18 +51,18 @@ const ProjectsSection = () => {
             >
               {/* Tape effect */}
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-16 h-6 bg-[hsl(45_30%_90%/0.7)] rounded-sm" />
-              
+
               <h3 className="font-handwriting text-3xl text-ink mb-3 mt-2">
                 {project.title}
               </h3>
               <p className="font-body text-foreground mb-4 leading-relaxed">
                 {project.description}
               </p>
-              
+
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech.map((t) => (
-                  <span 
-                    key={t} 
+                  <span
+                    key={t}
                     className="font-casual text-sm px-3 py-1 bg-paper border border-doodle/30 rounded-full"
                   >
                     {t}

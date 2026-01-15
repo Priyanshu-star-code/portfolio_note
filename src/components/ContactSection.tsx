@@ -50,15 +50,30 @@ const ContactSection = () => {
                 {['GitHub', 'LinkedIn', 'Twitter'].map((social) => (
                   <a
                     key={social}
-                    href="#"
+                    href="https://github.com/Priyanshu-star-code"
                     className="font-casual text-sm px-4 py-2 border-2 border-dashed border-doodle rounded-full hover:bg-primary/30 transition-colors"
                   >
                     {social}
                   </a>
                 ))}
               </div>
+
+              {/* Orbiting Planets */}
+
+
+              <div className="absolute bottom-[25%] left-[8%] w-20 h-20 sm:w-28 sm:h-28">
+                <div className="relative w-full h-full animate-orbit-reverse">
+                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-gradient-to-br from-highlight to-doodle opacity-70"
+                    style={{ boxShadow: '0 0 10px hsl(var(--highlight) / 0.5)' }} />
+                </div>
+                <div className="absolute inset-0 border border-dotted border-accent/20 rounded-full" />
+              </div>
             </div>
+
+
           </div>
+
+
 
           {/* Contact Form */}
           <form

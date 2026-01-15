@@ -11,38 +11,38 @@ interface Experience {
 
 const experiences: Experience[] = [
     {
-        title: "Senior Full-Stack Developer",
-        company: "Tech Innovators Inc",
-        location: "San Francisco, CA",
-        period: "Jan 2023 - Present",
+        title: "DevOps Engineer",
+        company: "WalrusIt ",
+        location: "Kansas City,USA",
+        period: "May 2025 - Present",
         description: [
-            "Led development of microservices architecture",
-            "Mentored junior developers and conducted code reviews",
-            "Reduced deployment time by 40% through CI/CD optimization"
+            "Design, deploy, and maintain software applications with reliable CI/CD pipelines and stable production environments.",
+            "Collaborate with cross-functional teams to troubleshoot issues, resolve defects, and improve system reliability.",
+            "Continuously optimize application performance, deployment processes, and operational efficiency."
         ],
         side: 'left'
     },
     {
-        title: "Full-Stack Developer",
-        company: "StartupXYZ",
-        location: "Remote",
-        period: "Jun 2021 - Dec 2022",
+        title: "DevOps Engineer",
+        company: "DevSecOps Softwares Pvt. Ltd",
+        location: " Greater Noida, India",
+        period: "Mar 2024- Feb 2025",
         description: [
-            "Built React-based dashboards with real-time data",
-            "Implemented RESTful APIs using Node.js and Express",
-            "Integrated third-party payment and analytics services"
+            "Deployed DSO-Genie-AI web application on AWS and GCP, ensuring high availability and scalability",
+            "Created and maintained Dockerfiles and implemented CI/CD pipelines using GitHub Actions for automated builds and deployments.",
+            "Built and managed cloud infrastructure using Terraform, enabling consistent, scalable, and reproducible environments."
         ],
         side: 'right'
     },
     {
-        title: "Frontend Developer",
-        company: "Digital Agency Co",
-        location: "New York, NY",
-        period: "Aug 2020 - May 2021",
+        title: "DevOps Engineer Intern",
+        company: "DevSecOps Softwares Pvt. Ltd",
+        location: " Greater Noida, India",
+        period: "Nov 2023 - Mar 2024",
         description: [
-            "Developed responsive web applications",
-            "Collaborated with UX team on design systems",
-            "Improved page load performance by 60%"
+            "Maintained Devsecopssoft website as part of the early-stage DevOps team",
+            " Utilized GitHub for source code management, branching strategies, and team collaboration",
+            " Worked with Linux-based environments"
         ],
         side: 'left'
     },
@@ -51,9 +51,13 @@ const experiences: Experience[] = [
 const WorkExperienceSection = () => {
     return (
         <section className="py-20 notebook-page relative overflow-hidden" id="experience">
+
+
             {/* Spiral binding */}
             <div className="absolute left-0 top-0 bottom-0 w-12 spiral-binding opacity-60" />
             <div className="absolute left-16 top-0 bottom-0 w-[3px] bg-[hsl(0_70%_70%)]" />
+
+
 
             <div className="container mx-auto px-8 md:px-20">
                 <div className="flex items-center justify-center gap-4 mb-16">
