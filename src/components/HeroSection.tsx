@@ -6,7 +6,7 @@ const HeroSection = () => {
   const handleDownloadResume = () => {
     // Create a link to download the resume
     // Replace this URL with your actual resume file URL
-    const resumeUrl = "/src/Priyanshu_NoteDev.pdf";
+    const resumeUrl = "/Priyanshu_NoteDev.pdf";
     const link = document.createElement("a");
     link.href = resumeUrl;
     link.download = "Priyanshu_NoteDev.pdf";

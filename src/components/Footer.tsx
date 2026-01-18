@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="container mx-auto px-8 md:px-20">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="font-casual text-muted-foreground text-center md:text-left">
-            Crafted with ☕ & 💻 © 2025
+            Crafted with ☕ & 💻 © 2026
           </p>
 
           {/* Social Links */}
@@ -40,7 +40,7 @@ const Footer = () => {
             </a>
             <span className="text-muted-foreground">|</span>
             <a
-              href="/src/Priyanshu_NoteDev.pdf"
+              href="/Priyanshu_NoteDev.pdf"
               download="My_Resume.pdf"
               className="flex items-center gap-2 font-casual text-ink hover:text-doodle transition-colors"
               aria-label="Download Resume"
